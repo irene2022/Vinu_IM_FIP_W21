@@ -16,5 +16,5 @@ The website contains 5 pages:
   To show the design layout and functionality of the website. 
   The content of the website may vary depending on a client feedback.
   
-## Duration of work done
-    Two weeks
+## Duration of time taken to work on the project
+    Roughly one month
