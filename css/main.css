@@ -1,0 +1,12 @@
+@font-face
+{
+	font-family: 'BreeSerif-Regular';
+	src: url('../fonts/BreeSerif-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.hidden
+{
+	display: none;
+}
