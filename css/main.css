@@ -107,8 +107,6 @@ h2, h3
 /* Promo Images */
 .promo
 {
-	width: 900px;
-	height: 350px;
 	margin: 20px;
 	padding: 20px;
 	justify-content: center;
@@ -169,6 +167,18 @@ h2, h3
 	padding: 20px;
 }
 
+.prodSec1
+{
+	background: rgb(255,255,255);
+	background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(74,22,22,1) 75%);
+}
+
+.prodSec2
+{
+	background: rgb(255,255,255);
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(74,22,22,1) 75%);
+}
+
 .text2
 {
 	text-align: right;
@@ -183,6 +193,12 @@ h2, h3
 	padding: 20px;
 	line-height: 1.5;
 }
+
+.text1 p, .text1 h3, .text2 p, .text2 h3
+{
+	color: #FFF2E9;
+}
+
 
 /* <-----------------------------------------------------------> */
 
@@ -281,6 +297,13 @@ input, textarea
 	border-radius: 5px;
 }
 
-@media screen {
+@media screen and (min-width: 480px)
+{
+	.container
+	{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
 
 }
