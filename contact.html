@@ -7,12 +7,11 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <title>Home page - FIP Brand Mashup: Rickards X Bar Keepers Friend</title>
+  <title>Contact page - FIP Brand Mashup: Rickards X Bar Keepers Friend</title>
 </head>
 <body>
   <div class="container">
     <h1 class="hidden">Bar Keepers Friend - Beer mashup website</h1>
-
     <header class="mainHeader">
       <section class="headerTop">
         <img src="images/logo.svg" alt="brand logo">
@@ -23,41 +22,44 @@
 
       <nav class="mainNav">
         <ul>
-          <li> <a href="#">HOME</a> </li>
+          <li> <a href="index.html">Home</a> </li>
           <li> <a href="about.html">About Us</a> </li>
           <li> <a href="product.html">Products</a> </li>
           <li> <a href="ad.html">Advertisment</a> </li>
-          <li> <a href="contact.html">Contact Us</a> </li>
+          <li> <a href="#">CONTACT US</a> </li>
         </ul>
       </nav>
     </header>
-
     <section class="promo">
       <h2 class="hidden">promo image 1</h2>
-      <img src="images/promo1.jpg" alt="home promo image" width="900" height="350">
+      <img src="images/promo4.jpg" alt="home promo image" width="900" height="350">
     </section>
 
-    <section id="prodImg">
-      <img src="images/product.jpg" alt="product image 1" width="243" height="243">
-      <img src="images/product.jpg" alt="product image 2" width="243" height="243">
-      <img src="images/product.jpg" alt="product image 3" width="243" height="243">
-    </section>
+    <section class="queryBox">
+      <h2>For queries and more information: </h2>
+      <section class="queryForm">
+        <h2 class="hidden">contact and query form</h2>
 
-    <section class="ProdDescription">
-      <section class="prodSec1">
-        <section class="text1">
-          <h3>Sub Title 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum tempora eius dolorum odio provident, facilis corporis. Officia ipsum possimus praesentium pariatur consequatur nobis laborum. Neque error debitis amet, sint ad.</p>
-        </section>
-        <img src="images/secImg1.jpg" alt="image for section 1" width="350" height="250">
-      </section>
+        <form class="contactForm" action="form.php" method="post">
 
-      <section class="prodSec2">
-        <img src="images/secImg2.jpg" alt="image for section 2" width="350" height="250">
-        <section class="text2">
-          <h3>Sub Title 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa rem consequuntur repellat neque explicabo ipsum hic odio non praesentium saepe perferendis, qui, dolor culpa, nobis eius enim, ducimus inventore odit.</p>
-        </section>
+            <label for="name">Name*: </label>
+            <input type="text" name="fullName" required id="name" size="40">
+
+            <label for="email">Email ID*: </label>
+            <input type="email" size="40" required id="email">
+
+            <label for="phone">Phone Number: </label>
+            <input type="tel" size="40" id="phone" placeholder="(Optional)">
+
+            <label for="comments">Comment/Query: </label>
+            <textarea name="comments" id="comments" rows="10" cols="60"></textarea>
+
+            <label for="human">Enter 7 * 8: </label>
+            <input type="text" required id="human" size="40">
+
+          <input type="submit" value="Submit" id="submit">
+
+        </form>
       </section>
     </section>
 

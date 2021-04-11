@@ -1,0 +1,84 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="3in" height="3in" viewBox="0 0 216 216">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ae1f23;
+        stroke: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-7, .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ceb38a;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+        stroke: #939291;
+      }
+
+      .cls-4, .cls-5, .cls-7 {
+        font-size: 32.44px;
+        fill: #fff8f3;
+        stroke: #ae1f23;
+        font-family: BreeSerif-Bold, Bree Serif;
+        font-weight: 700;
+      }
+
+      .cls-4, .cls-5, .cls-7, .cls-8 {
+        stroke-width: 0.25px;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-8 {
+        font-size: 18.33px;
+        fill: #fff;
+        stroke: #cb2027;
+        font-family: BreeSerif-Italic, Bree Serif;
+        font-style: italic;
+        letter-spacing: 0.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0.03em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0.03em;
+      }
+    </style>
+  </defs>
+  <path id="door_fill" data-name="door fill" class="cls-1" d="M19.67,146.58V75.87H41.21c18.84-40,66.85-38.67,66.85-38.67,47.87-.09,66.84,38.54,66.84,38.54h21.55v70.84Z"/>
+  <path id="door_outline" data-name="door outline" class="cls-2" d="M19.67,146.58V75.87H41.21C60.05,37.11,108.06,37.2,108.06,37.2c47.87-.09,66.84,38.54,66.84,38.54h21.55v70.84Z"/>
+  <polygon id="ribbon" class="cls-3" points="0.12 146.58 216 146.58 211.88 162.19 216 177.81 0.12 177.81 6.14 162.19 0.12 146.58"/>
+  <g id="bar_keepers_friend" data-name="bar keepers friend">
+    <text class="cls-4" transform="translate(35.49 109.38) scale(1.13 1.24)">KEEPERS</text>
+    <text class="cls-4" transform="translate(72.9 78.33) scale(1.13 1.24)">BAR</text>
+    <text class="cls-5" transform="translate(48.57 140.56) scale(1.15 1.24)">F<tspan class="cls-6" x="16.93" y="0">R</tspan><tspan x="37.24" y="0">IE</tspan></text>
+    <text class="cls-7" transform="translate(121.99 140.56) scale(1.07 1.24)">N</text>
+    <text class="cls-5" transform="translate(145.42 140.56) scale(1.15 1.24)">D</text>
+  </g>
+  <text class="cls-8" transform="translate(63.56 168.73)">s<tspan class="cls-9" x="8.89" y="0">i</tspan><tspan x="14.7" y="0">n</tspan><tspan class="cls-10" x="25.93" y="0">c</tspan><tspan class="cls-11" x="35.09" y="0">e 1889</tspan></text>
+</svg>
